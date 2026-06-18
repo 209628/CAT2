@@ -50,11 +50,13 @@ img {
 /* NAVIGATION  */
 .navbar {
     background-color: #1a3a6b !important;
+    padding: 0 !important;
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 100px;
     width: auto;
+    display: block;
 }
 
 .navbar-nav .nav-link {
@@ -79,6 +81,16 @@ img {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+.banner h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 /* LAYOUT */
