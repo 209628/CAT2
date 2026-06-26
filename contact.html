@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Homewise - Contact Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/Logo.jpeg" alt="Harmony Homewise Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products & Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="pricelist.html">Price List</a></li>
+                    <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Harmony Homewise for all your fencing needs</p>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="row-custom">
+        <div class="content">
+
+            <h2>Send Us a Message</h2>
+            <h3>Happy to   help:) </h3>
+            <p>Have a question or need a quote? Fill out the form below and OUR team will get back to you as soon as possible.</p>
+
+            <form id="contactForm" class="contactForm" autocomplete="on">
+                <div class="field">
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" id="fullName" name="fullName"><br>
+                    <p id="fullNameError" class="error"></p>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <p id="emailError" class="error"></p>
+                </div>
+
+                <div class="field">
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <p id="phoneError" class="error"></p>
+                </div>
+
+                <div class="field">
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="">--Please choose an option--</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="quote">Request a Quote</option>
+                        <option value="installation">Installation Support</option>
+                        <option value="delivery">Delivery Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                    <p id="subjectError" class="error"></p>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5"></textarea><br>
+                    <p id="messageError" class="error"></p>
+                </div>
+
+                <button type="submit">Send Message</button>
+                <p id="successMessage" class="success"></p>
+            </form>
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <h3>Our Office</h3>
+            <p>📍 Eldoret, Uasin Gishu County, Kenya</p>
+            <p>📞 <a href="tel:+254705118064">+254 705 118 064</a></p>
+            <p>📧 <a href="mailto:harmonyhomewise@gmail.com">harmonyhomewise@gmail.com</a></p>
+
+            <h3>Our Directors</h3>
+            <p><strong>Elizabeth Barasa</strong><br>
+            <a href="tel:+254720433479">+254 720 433 479</a></p>
+            <p><strong>Patrick Nyongesa</strong><br>
+            <a href="tel:+254720430455">+254 720 430 455</a></p>
+
+            <h3>Sales Manager</h3>
+            <p><strong>Larry Simiyu</strong><br>
+            <a href="tel:+254705118064">+254 705 118 064</a></p>
+
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="products.html">Our Products & Services</a></li>
+                <li><a href="pricelist.html">Price List</a></li>
+                <li><a href="delivery.html">Delivery Areas</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>&#169; 2026 Harmony Homewise. All rights reserved. |
+        <a href="contact.html">Contact Us</a> |
+        <a href="faq.html">FAQ</a></p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
