@@ -1,3 +1,21 @@
+// Greeting Function 
+function greetings(hours) {
+    if (hours < 12) {
+        var greet = "Good morning! Welcome to Harmony Homewise.";
+    } else if (hours < 18) {
+        var greet = "Good afternoon! Welcome to Harmony Homewise.";
+    } else {
+        var greet = "Good evening! Welcome to Harmony Homewise.";
+    }
+    return greet;
+}
+
+// Display the greeting on page load
+window.onload = function() {
+    var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+    document.getElementById("greetingMessage").innerHTML = greetings(currentHour);
+};
 // Contact Form Validation
 document.getElementById('contactForm').addEventListener('submit', function(event){
     event.preventDefault(); // Prevent the default form submission
